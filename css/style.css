@@ -8,6 +8,7 @@
 
 body{
     font-family: "Inter Tight", sans-serif;
+    background-color: #E0F2FE;
 }
 
 header{
@@ -29,5 +30,34 @@ header{
         padding: 14px;
         border-radius: 999px;
         border: none;
+    }
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+
+    #main{
+        width: 48%;
+        background-image: url(/images/bacgr.jpg);
+        object-fit: contain;
+        overflow: hidden;
+        background-size: cover;
+    }
+    .articles{
+        width: 48%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    article{
+        /* width: 48%; */
+        background-color: white;
+        height: fit-content;
+        border-radius: 16px;
+        padding: 10px;
     }
 }

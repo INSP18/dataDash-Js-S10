@@ -13,6 +13,7 @@ async function getWeatherData(city="Brazzaville"){
     }catch(error){
         console.error("Erreur de récupération", error.message )
     }
+
     
-    getWeatherData("Brazzaville")
 }
+getWeatherData("Brazzaville")
