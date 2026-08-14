@@ -55,7 +55,7 @@ main{
     #main{
         width: 48%;
         height:  60dvh;
-        background-image: url(/images/bacgr.jpg);
+        background-image: url(images/bacgr.jpg);
         object-fit: contain;
         overflow: hidden;
         background-size: cover;
