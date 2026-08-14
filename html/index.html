@@ -9,7 +9,8 @@
 <body>
     <header>
         <span>dataDash</span>
-        <input type="text" placeholder="Recherche une ville...">
+        <input type="text" placeholder="Recherche une ville..." id="input">
+        <button id="search-btn">Rechercher</button>
     </header>
     <main>
         <section id="main">
@@ -19,12 +20,18 @@
             <h3 id="description"></h3>
             <p id="ressenti"></p>
             <div class="sunriseSunset">
-                <p id="sunrise"></p>
-                <p id="sunset"></p>
+                <div class="icon">
+                    <img src="/images/sunrise.png" alt="sunrise" width="30" height="30">
+                    <p id="sunrise"></p>
+                </div>
+                <div class="icon">
+                    <img src="/images/sunset.png" alt="sunset" width="30" height="30">
+                    <p id="sunset"></p>
+                </div>
             </div>
         </section>
         <section id="articles">
-            <article id="humidity"></article>
+            <article id="humidity" class="img"></article>
             <article id="vent"></article>
             <article id="pression"></article>
             <article id="visibility"></article>

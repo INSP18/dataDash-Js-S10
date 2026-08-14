@@ -31,6 +31,17 @@ header{
         border-radius: 999px;
         border: none;
     }
+
+    #search-btn{
+        padding: 10px 20px;
+        background-color: #7DD3FC;
+        border-radius:15px;
+        color: #1E1B4B;
+        font-weight: 700;
+        font-size: 1.2rem;
+        border: none;
+        cursor: pointer;
+    }
 }
 
 main{
@@ -52,6 +63,27 @@ main{
         border-radius: 12px;
         padding: 30px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.285);
+        line-height: 1.2;
+
+        #ressenti{
+            margin: 10px 0;
+        }
+
+        #degree{
+            font-size: 8rem;
+            font-weight: 800;
+        }
+
+        .sunriseSunset{
+            display: flex;
+            gap: 20px;
+
+            .icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
     }
     #articles{
         width: 48%;
@@ -63,10 +95,17 @@ main{
         article{
             width: 100%;
             background-color: white;
-            height: fit-content;
+            height: 28dvh;
             border-radius: 16px;
             padding: 10px;
             box-shadow: 0 2px 3px rgba(0, 0, 0, 0.285);
+            font-size: 2.1rem;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            color: #1E1B4B;
         }
     }
 }
